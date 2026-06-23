@@ -21,35 +21,35 @@ int main(){
 	do{
 		cout<<"JOGO DA VELHA!"<<endl<<endl<<endl;
 		
-		cout<<A1<<" | "<<A2<<" | "<<A3<<endl; // IMPRESS√O DO TABULEIRO
+		cout<<A1<<" | "<<A2<<" | "<<A3<<endl; // IMPRESS√ÉO DO TABULEIRO
 		cout<<"---------"<<endl;
 		cout<<B1<<" | "<<B2<<" | "<<B3<<endl;
 		cout<<"---------"<<endl;
 		cout<<C1<<" | "<<C2<<" | "<<C3<<endl<<endl<<endl;
 		
 		
-	if (A1 == 'X' && A2 == 'X' && A3 == 'X' || A1 == '0' && A2 == '0' && A3 == '0'){ // POSSIBILIDADE DE VIT”RIA
+	if (A1 == 'X' && A2 == 'X' && A3 == 'X' || A1 == '0' && A2 == '0' && A3 == '0'){ // POSSIBILIDADE DE VIT√ìRIA
 	 	cout<<"JOGADOR "<<(jogador != 'X' ? "UM (X) ": "DOIS (0) ")<<"GANHOU O JOGO"<<endl;
 	 	break;}
-	if (B1 == 'X' && B2 == 'X' && B3 == 'X' || B1 == '0' && B2 == '0' && B3 == '0'){// POSSIBILIDADE DE VIT”RIA
+	if (B1 == 'X' && B2 == 'X' && B3 == 'X' || B1 == '0' && B2 == '0' && B3 == '0'){// POSSIBILIDADE DE VIT√ìRIA
 	 	cout<<"JOGADOR "<<(jogador != 'X' ? "UM (X) ": "DOIS (0) ")<<"GANHOU O JOGO"<<endl;
 	    break;}
-	if (C1 == 'X' && C2 == 'X' && C3 == 'X' || C1 == '0' && C2 == '0' && C3 == '0'){// POSSIBILIDADE DE VIT”RIA
+	if (C1 == 'X' && C2 == 'X' && C3 == 'X' || C1 == '0' && C2 == '0' && C3 == '0'){// POSSIBILIDADE DE VIT√ìRIA
 	 	cout<<"JOGADOR "<<(jogador != 'X' ? "UM (X) ": "DOIS (0) ")<<"GANHOU O JOGO"<<endl;
 	    break;}
-	if (A1 == 'X' && B1 == 'X' && C1 == 'X' || A1 == '0' && B1 == '0' && C1 == '0'){// POSSIBILIDADE DE VIT”RIA
+	if (A1 == 'X' && B1 == 'X' && C1 == 'X' || A1 == '0' && B1 == '0' && C1 == '0'){// POSSIBILIDADE DE VIT√ìRIA
 	 	cout<<"JOGADOR "<<(jogador != 'X' ? "UM (X) ": "DOIS (0) ")<<"GANHOU O JOGO"<<endl;
 	    break;} 
-	if (A2 == 'X' && B2 == 'X' && C2 == 'X' || A2 == '0' && B2 == '0' && C2 == '0'){// POSSIBILIDADE DE VIT”RIA
+	if (A2 == 'X' && B2 == 'X' && C2 == 'X' || A2 == '0' && B2 == '0' && C2 == '0'){// POSSIBILIDADE DE VIT√ìRIA
 	 	cout<<"JOGADOR "<<(jogador != 'X' ? "UM (X) ": "DOIS (0) ")<<"GANHOU O JOGO"<<endl;
 	    break;} 
-	if (A3 == 'X' && B3 == 'X' && C3 == 'X' || A3 == '0' && B3 == '0' && C3 == '0'){// POSSIBILIDADE DE VIT”RIA
+	if (A3 == 'X' && B3 == 'X' && C3 == 'X' || A3 == '0' && B3 == '0' && C3 == '0'){// POSSIBILIDADE DE VIT√ìRIA
 	 	cout<<"JOGADOR "<<(jogador != 'X' ? "UM (X) ": "DOIS (0) ")<<"GANHOU O JOGO"<<endl;
 	    break;}
-	if (A1 == 'X' && B2 == 'X' && C3 == 'X' || A1 == '0' && B2 == '0' && C3 == '0'){// POSSIBILIDADE DE VIT”RIA
+	if (A1 == 'X' && B2 == 'X' && C3 == 'X' || A1 == '0' && B2 == '0' && C3 == '0'){// POSSIBILIDADE DE VIT√ìRIA
 	 	cout<<"JOGADOR "<<(jogador != 'X' ? "UM (X) ": "DOIS (0) ")<<"GANHOU O JOGO"<<endl;
 	    break;} 
-	if (A3 == 'X' && B2 == 'X' && C1 == 'X' || A3 == '0' && B2 == '0' && C1 == '0'){// POSSIBILIDADE DE VIT”RIA
+	if (A3 == 'X' && B2 == 'X' && C1 == 'X' || A3 == '0' && B2 == '0' && C1 == '0'){// POSSIBILIDADE DE VIT√ìRIA
 	 	cout<<"JOGADOR "<<(jogador != 'X' ? "UM (X) ": "DOIS (0) ")<<"GANHOU O JOGO"<<endl;
 	    break;}    
 	    
@@ -58,10 +58,10 @@ int main(){
 	    break;}
 	
 		
-		cout<<"JOGADOR "<<(jogador == 'X' ? "UM (X) ": "DOIS (0) ")<< "ESCOLHA UMA POSI«√O"<<endl<<endl;
+		cout<<"JOGADOR "<<(jogador == 'X' ? "UM (X) ": "DOIS (0) ")<< "ESCOLHA UMA POSI√á√ÉO"<<endl<<endl;
 		cin >> opc;
 		
-		    while((opc == '1' && A1 != '1') ||// VALIDA SE A CASA ESCOLHIDA EST¡ OCUPADA
+		    while((opc == '1' && A1 != '1') ||// VALIDA SE A CASA ESCOLHIDA EST√Å OCUPADA
 		          (opc == '2' && A2 != '2') ||
 		          (opc == '3' && A3 != '3') ||
 		          (opc == '4' && B1 != '4') ||
@@ -70,7 +70,7 @@ int main(){
 		          (opc == '7' && C1 != '7') ||
 		          (opc == '8' && C2 != '8') ||
 		          (opc == '9' && C3 != '9')){
-            	cout<<"POSI«√O OCUPADA! ESCOLHA OUTRA POSI«√O: "<<endl<<endl;
+            	cout<<"POSI√á√ÉO OCUPADA! ESCOLHA OUTRA POSI√á√ÉO: "<<endl<<endl;
             	cin>>opc;}
 		
 		switch(opc){ // ESCOLHE A CASA DESEJADA
